@@ -1,0 +1,16 @@
+PODS:
+  - YXWaveView (0.5.0)
+
+DEPENDENCIES:
+  - YXWaveView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - YXWaveView
+
+SPEC CHECKSUMS:
+  YXWaveView: 3570d7244b08effd077a5c63b0693aa44b7cd369
+
+PODFILE CHECKSUM: 73171152ee518666647b2ad8cf3a500916e6131b
+
+COCOAPODS: 1.6.0

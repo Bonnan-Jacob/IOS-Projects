@@ -1,0 +1,967 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0549DEE72A509CECD91347E815F8DEBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		05B8E010A2A421E0FB67841B972F1C1C /* YXWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD75F066F02DC88B3EA9B0B36D0D4E /* YXWaveView.swift */; };
+		329D8E5E1B4B8736AF6FADEE6BC3DF44 /* YXWaveView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADD43CCFC45AA5FBFD1FAE4DE1C4357 /* YXWaveView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F1994D12957BF2A0961DBB41C9F8950 /* Pods-calter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A587F3FADF4205990C9688A767F7C4 /* Pods-calter-dummy.m */; };
+		4D4A63A400D61FB5D0A8CEA003EFA62F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		50188D996446A18B8B7B2785A355FCFD /* Pods-calterTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C9081BEBB045C4E6A0E7865DA8E1D4 /* Pods-calterTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A45B2F64F97961FC79D08DDACA2B812 /* Pods-calterTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 323750EE2B58CFC1E534A9D1D5C754D9 /* Pods-calterTests-dummy.m */; };
+		7CCAE38E331A8D62964DFFE4E5E5EF5C /* YXWaveView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A28B1A0BDF6405F376B428632A81BD /* YXWaveView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BD2AA4052B3B624F3C272AE380ADC8F /* Pods-calterUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABCE5753EAB2C8B6FBE5607D7478252 /* Pods-calterUITests-dummy.m */; };
+		A95DE2B09DD5CE590D34A132CED059C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B48A794CB6470CD2660E1ED0EF883140 /* Pods-calterUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D19BF912BE39DC3BA1FB591B00E4ED8 /* Pods-calterUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE7992A9EBBA8F90B8CF28DE43DD4247 /* Pods-calter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 763C35EDA1335A4D166EFB5FD65CD9BE /* Pods-calter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2BCC428DA7BEC5B0390485C752DFFFB /* YXWaveView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2835CA35B2AE0AF4C99FF03501124AE4 /* YXWaveView-dummy.m */; };
+		EB6A0B0792EB8F5FCEA66F19379C7F21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BCB9CAC261B034974967933FE48C1B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43CAAD33E8AC49A233986C7F8F48725;
+			remoteInfo = YXWaveView;
+		};
+		6E07A3B7164A19C92E502D6D6D8E9D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58C9B9D448E8DAF1A1FF2782FC4790BE;
+			remoteInfo = "Pods-calter";
+		};
+		AB4B45A5B38B604F95E645E8E6A4DB15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58C9B9D448E8DAF1A1FF2782FC4790BE;
+			remoteInfo = "Pods-calter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E12979134BAE0A2631B83F7A0EE0350 /* Pods-calterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E9B75E9614477DDE25198664C5CE083 /* Pods-calter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-calter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F6B15E54C82C2B2BF3FC577D99F88DD /* Pods-calterUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-calterUITests.modulemap"; sourceTree = "<group>"; };
+		25001FBD87B63773FABFFD66A8FB6AB2 /* Pods-calter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calter.release.xcconfig"; sourceTree = "<group>"; };
+		2596BC7ED002E15A9E200DC74E7F8873 /* Pods_calterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_calterUITests.framework; path = "Pods-calterUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A28B1A0BDF6405F376B428632A81BD /* YXWaveView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YXWaveView-umbrella.h"; sourceTree = "<group>"; };
+		2835CA35B2AE0AF4C99FF03501124AE4 /* YXWaveView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YXWaveView-dummy.m"; sourceTree = "<group>"; };
+		2AF24BA7270AA178C01A0A550AD4ADB5 /* Pods_calter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_calter.framework; path = "Pods-calter.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCD75F066F02DC88B3EA9B0B36D0D4E /* YXWaveView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YXWaveView.swift; path = YXWaveView/YXWaveView.swift; sourceTree = "<group>"; };
+		30A5F3FDCCCB325975F0ED81F1739C78 /* Pods-calterTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-calterTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3134D08190A7E82479C26F60B0B76014 /* Pods-calterUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-calterUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		323750EE2B58CFC1E534A9D1D5C754D9 /* Pods-calterTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-calterTests-dummy.m"; sourceTree = "<group>"; };
+		42AA9A280EAB42D30FCC6C8AA2856E5A /* Pods-calterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calterTests.release.xcconfig"; sourceTree = "<group>"; };
+		442C884A31CE0D37974E14BB917E45B7 /* Pods-calterUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-calterUITests-Info.plist"; sourceTree = "<group>"; };
+		4A30E6FBD2847C43784D28F5F0C55DDB /* Pods-calter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calter.debug.xcconfig"; sourceTree = "<group>"; };
+		4B1C7DDF64EB59E86F57B4E9A915D972 /* Pods-calterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		51A587F3FADF4205990C9688A767F7C4 /* Pods-calter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-calter-dummy.m"; sourceTree = "<group>"; };
+		5555AD55F557936CD37FA73C97DFF892 /* Pods-calterTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-calterTests.modulemap"; sourceTree = "<group>"; };
+		62FE26806B4F20936399D062063A437C /* Pods-calterTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-calterTests-Info.plist"; sourceTree = "<group>"; };
+		6ABCE5753EAB2C8B6FBE5607D7478252 /* Pods-calterUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-calterUITests-dummy.m"; sourceTree = "<group>"; };
+		763C35EDA1335A4D166EFB5FD65CD9BE /* Pods-calter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-calter-umbrella.h"; sourceTree = "<group>"; };
+		8966A51790E948BE50A0721508A100BE /* Pods-calter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-calter-frameworks.sh"; sourceTree = "<group>"; };
+		8ADD43CCFC45AA5FBFD1FAE4DE1C4357 /* YXWaveView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YXWaveView.h; path = YXWaveView/YXWaveView.h; sourceTree = "<group>"; };
+		9109EED8B959B3A4A6C782DF0E71E26C /* Pods-calter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-calter-Info.plist"; sourceTree = "<group>"; };
+		924A7088E078F4FBBF7E353A1E5A4A71 /* YXWaveView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YXWaveView-Info.plist"; sourceTree = "<group>"; };
+		93C9081BEBB045C4E6A0E7865DA8E1D4 /* Pods-calterTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-calterTests-umbrella.h"; sourceTree = "<group>"; };
+		951F1C0BD8D7634BD1B447358E5637F6 /* Pods-calter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-calter-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D19BF912BE39DC3BA1FB591B00E4ED8 /* Pods-calterUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-calterUITests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABC233BE9D63A3D11C6C2FF67FF693B3 /* Pods-calterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B103D2E2992508C7A85A32772C99FC8A /* YXWaveView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YXWaveView-prefix.pch"; sourceTree = "<group>"; };
+		B37CF09C2D4A86F28F9E863257566019 /* YXWaveView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YXWaveView.framework; path = YXWaveView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF30F2460DDBD62C864943CC42C5A200 /* YXWaveView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YXWaveView.xcconfig; sourceTree = "<group>"; };
+		C1C4830FAD04A8D2EC6DA6E90C88F397 /* Pods-calterTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-calterTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C45EAB1724B268A324717295C55BE6B0 /* Pods-calter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-calter.modulemap"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFCD13420E56A4D76C3C40F55DC1DF06 /* YXWaveView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YXWaveView.modulemap; sourceTree = "<group>"; };
+		D8D5E8FD3CD88E7922BE39F6392DAA49 /* Pods_calterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_calterTests.framework; path = "Pods-calterTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7055E4196FD6F71DDD2B4C35D433742 /* Pods-calterUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-calterUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		286119852A3B500FAAA9BD7D074BDB27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6A0B0792EB8F5FCEA66F19379C7F21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		296683B2895ECAF822FCB932C2AB801B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0549DEE72A509CECD91347E815F8DEBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4171A01820EBAC9A37B7C16BC9C18854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4A63A400D61FB5D0A8CEA003EFA62F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1AF2379C030D52DD0BB3748C0DEB12D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95DE2B09DD5CE590D34A132CED059C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18916A20527259B122DC3692E04E9AE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE9EC680B843AE92462488D7DDEE6A14 /* YXWaveView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		211416F2FF0BCCE7EC3E9DFF7F1861E6 /* Pods-calterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F6B15E54C82C2B2BF3FC577D99F88DD /* Pods-calterUITests.modulemap */,
+				3134D08190A7E82479C26F60B0B76014 /* Pods-calterUITests-acknowledgements.markdown */,
+				E7055E4196FD6F71DDD2B4C35D433742 /* Pods-calterUITests-acknowledgements.plist */,
+				6ABCE5753EAB2C8B6FBE5607D7478252 /* Pods-calterUITests-dummy.m */,
+				442C884A31CE0D37974E14BB917E45B7 /* Pods-calterUITests-Info.plist */,
+				9D19BF912BE39DC3BA1FB591B00E4ED8 /* Pods-calterUITests-umbrella.h */,
+				0E12979134BAE0A2631B83F7A0EE0350 /* Pods-calterUITests.debug.xcconfig */,
+				ABC233BE9D63A3D11C6C2FF67FF693B3 /* Pods-calterUITests.release.xcconfig */,
+			);
+			name = "Pods-calterUITests";
+			path = "Target Support Files/Pods-calterUITests";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9CC0B6EB38F1B3A0C77C46B8C6605B3F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F50F54F1C71014DC376C0223BFE81730 /* Pods-calter */,
+				E79F76F3542B0AB055B15CC5A8EA605C /* Pods-calterTests */,
+				211416F2FF0BCCE7EC3E9DFF7F1861E6 /* Pods-calterUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CB9AF8F6805F0EA20DBDC4ADA4D6F11E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AF24BA7270AA178C01A0A550AD4ADB5 /* Pods_calter.framework */,
+				D8D5E8FD3CD88E7922BE39F6392DAA49 /* Pods_calterTests.framework */,
+				2596BC7ED002E15A9E200DC74E7F8873 /* Pods_calterUITests.framework */,
+				B37CF09C2D4A86F28F9E863257566019 /* YXWaveView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				18916A20527259B122DC3692E04E9AE1 /* Pods */,
+				CB9AF8F6805F0EA20DBDC4ADA4D6F11E /* Products */,
+				9CC0B6EB38F1B3A0C77C46B8C6605B3F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E38C6461ED29AFAAB513E23D6F51698D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFCD13420E56A4D76C3C40F55DC1DF06 /* YXWaveView.modulemap */,
+				BF30F2460DDBD62C864943CC42C5A200 /* YXWaveView.xcconfig */,
+				2835CA35B2AE0AF4C99FF03501124AE4 /* YXWaveView-dummy.m */,
+				924A7088E078F4FBBF7E353A1E5A4A71 /* YXWaveView-Info.plist */,
+				B103D2E2992508C7A85A32772C99FC8A /* YXWaveView-prefix.pch */,
+				27A28B1A0BDF6405F376B428632A81BD /* YXWaveView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YXWaveView";
+			sourceTree = "<group>";
+		};
+		E79F76F3542B0AB055B15CC5A8EA605C /* Pods-calterTests */ = {
+			isa = PBXGroup;
+			children = (
+				5555AD55F557936CD37FA73C97DFF892 /* Pods-calterTests.modulemap */,
+				C1C4830FAD04A8D2EC6DA6E90C88F397 /* Pods-calterTests-acknowledgements.markdown */,
+				30A5F3FDCCCB325975F0ED81F1739C78 /* Pods-calterTests-acknowledgements.plist */,
+				323750EE2B58CFC1E534A9D1D5C754D9 /* Pods-calterTests-dummy.m */,
+				62FE26806B4F20936399D062063A437C /* Pods-calterTests-Info.plist */,
+				93C9081BEBB045C4E6A0E7865DA8E1D4 /* Pods-calterTests-umbrella.h */,
+				4B1C7DDF64EB59E86F57B4E9A915D972 /* Pods-calterTests.debug.xcconfig */,
+				42AA9A280EAB42D30FCC6C8AA2856E5A /* Pods-calterTests.release.xcconfig */,
+			);
+			name = "Pods-calterTests";
+			path = "Target Support Files/Pods-calterTests";
+			sourceTree = "<group>";
+		};
+		F50F54F1C71014DC376C0223BFE81730 /* Pods-calter */ = {
+			isa = PBXGroup;
+			children = (
+				C45EAB1724B268A324717295C55BE6B0 /* Pods-calter.modulemap */,
+				0E9B75E9614477DDE25198664C5CE083 /* Pods-calter-acknowledgements.markdown */,
+				951F1C0BD8D7634BD1B447358E5637F6 /* Pods-calter-acknowledgements.plist */,
+				51A587F3FADF4205990C9688A767F7C4 /* Pods-calter-dummy.m */,
+				8966A51790E948BE50A0721508A100BE /* Pods-calter-frameworks.sh */,
+				9109EED8B959B3A4A6C782DF0E71E26C /* Pods-calter-Info.plist */,
+				763C35EDA1335A4D166EFB5FD65CD9BE /* Pods-calter-umbrella.h */,
+				4A30E6FBD2847C43784D28F5F0C55DDB /* Pods-calter.debug.xcconfig */,
+				25001FBD87B63773FABFFD66A8FB6AB2 /* Pods-calter.release.xcconfig */,
+			);
+			name = "Pods-calter";
+			path = "Target Support Files/Pods-calter";
+			sourceTree = "<group>";
+		};
+		FE9EC680B843AE92462488D7DDEE6A14 /* YXWaveView */ = {
+			isa = PBXGroup;
+			children = (
+				8ADD43CCFC45AA5FBFD1FAE4DE1C4357 /* YXWaveView.h */,
+				2CCD75F066F02DC88B3EA9B0B36D0D4E /* YXWaveView.swift */,
+				E38C6461ED29AFAAB513E23D6F51698D /* Support Files */,
+			);
+			name = YXWaveView;
+			path = YXWaveView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6EB243D7666D14BB6AC007360D6461DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48A794CB6470CD2660E1ED0EF883140 /* Pods-calterUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F88AE310DC9E6631E6345DCCBCDB86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50188D996446A18B8B7B2785A355FCFD /* Pods-calterTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D215CE15F23984A71B10314E88889881 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCAE38E331A8D62964DFFE4E5E5EF5C /* YXWaveView-umbrella.h in Headers */,
+				329D8E5E1B4B8736AF6FADEE6BC3DF44 /* YXWaveView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4A50CD4DBB6DB380096DDDFB195E76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7992A9EBBA8F90B8CF28DE43DD4247 /* Pods-calter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02DF170BC6A11CA8BE62D7568FC0F3C9 /* Pods-calterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BADCEBED37C9E7AAA5F854A852BC46 /* Build configuration list for PBXNativeTarget "Pods-calterUITests" */;
+			buildPhases = (
+				6EB243D7666D14BB6AC007360D6461DC /* Headers */,
+				414783632B69E4A0CE8BF020AB2AF85F /* Sources */,
+				286119852A3B500FAAA9BD7D074BDB27 /* Frameworks */,
+				BFC97C8B946AF2D2613CD057138DB3B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D83165FC0E9F55E72D0F39F83B8E37B7 /* PBXTargetDependency */,
+			);
+			name = "Pods-calterUITests";
+			productName = "Pods-calterUITests";
+			productReference = 2596BC7ED002E15A9E200DC74E7F8873 /* Pods_calterUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E4B765919FF009A69CF174DC2D2F134 /* Pods-calterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5469973B6D27DF8342278D2B0147E4D /* Build configuration list for PBXNativeTarget "Pods-calterTests" */;
+			buildPhases = (
+				70F88AE310DC9E6631E6345DCCBCDB86 /* Headers */,
+				6599C814639B5C278990C3106C95F296 /* Sources */,
+				4171A01820EBAC9A37B7C16BC9C18854 /* Frameworks */,
+				B9F56F924485119ECFE4123A51EC9E18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				097A36A1C75D1B9E756D22FAA8917A0B /* PBXTargetDependency */,
+			);
+			name = "Pods-calterTests";
+			productName = "Pods-calterTests";
+			productReference = D8D5E8FD3CD88E7922BE39F6392DAA49 /* Pods_calterTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		58C9B9D448E8DAF1A1FF2782FC4790BE /* Pods-calter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED62BE598E0F0CF4D6D99B2D516BD987 /* Build configuration list for PBXNativeTarget "Pods-calter" */;
+			buildPhases = (
+				DD4A50CD4DBB6DB380096DDDFB195E76 /* Headers */,
+				7C65F50D1E58FBC60C8091286A814879 /* Sources */,
+				296683B2895ECAF822FCB932C2AB801B /* Frameworks */,
+				9989A9BC82FE1DD278DFCF11687F7BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BAAA765793A97A10AA3EACF0312BD64 /* PBXTargetDependency */,
+			);
+			name = "Pods-calter";
+			productName = "Pods-calter";
+			productReference = 2AF24BA7270AA178C01A0A550AD4ADB5 /* Pods_calter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A43CAAD33E8AC49A233986C7F8F48725 /* YXWaveView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB339148147DF5D6813D101617441574 /* Build configuration list for PBXNativeTarget "YXWaveView" */;
+			buildPhases = (
+				D215CE15F23984A71B10314E88889881 /* Headers */,
+				81DC03D44F47C58031DB94B6D38BEAEE /* Sources */,
+				D1AF2379C030D52DD0BB3748C0DEB12D /* Frameworks */,
+				E778C92A4FF665BDDE3BA515350B1DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXWaveView;
+			productName = YXWaveView;
+			productReference = B37CF09C2D4A86F28F9E863257566019 /* YXWaveView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CB9AF8F6805F0EA20DBDC4ADA4D6F11E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58C9B9D448E8DAF1A1FF2782FC4790BE /* Pods-calter */,
+				4E4B765919FF009A69CF174DC2D2F134 /* Pods-calterTests */,
+				02DF170BC6A11CA8BE62D7568FC0F3C9 /* Pods-calterUITests */,
+				A43CAAD33E8AC49A233986C7F8F48725 /* YXWaveView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9989A9BC82FE1DD278DFCF11687F7BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9F56F924485119ECFE4123A51EC9E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC97C8B946AF2D2613CD057138DB3B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E778C92A4FF665BDDE3BA515350B1DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		414783632B69E4A0CE8BF020AB2AF85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD2AA4052B3B624F3C272AE380ADC8F /* Pods-calterUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6599C814639B5C278990C3106C95F296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A45B2F64F97961FC79D08DDACA2B812 /* Pods-calterTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C65F50D1E58FBC60C8091286A814879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1994D12957BF2A0961DBB41C9F8950 /* Pods-calter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DC03D44F47C58031DB94B6D38BEAEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BCC428DA7BEC5B0390485C752DFFFB /* YXWaveView-dummy.m in Sources */,
+				05B8E010A2A421E0FB67841B972F1C1C /* YXWaveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		097A36A1C75D1B9E756D22FAA8917A0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-calter";
+			target = 58C9B9D448E8DAF1A1FF2782FC4790BE /* Pods-calter */;
+			targetProxy = 6E07A3B7164A19C92E502D6D6D8E9D96 /* PBXContainerItemProxy */;
+		};
+		2BAAA765793A97A10AA3EACF0312BD64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YXWaveView;
+			target = A43CAAD33E8AC49A233986C7F8F48725 /* YXWaveView */;
+			targetProxy = 0BCB9CAC261B034974967933FE48C1B9 /* PBXContainerItemProxy */;
+		};
+		D83165FC0E9F55E72D0F39F83B8E37B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-calter";
+			target = 58C9B9D448E8DAF1A1FF2782FC4790BE /* Pods-calter */;
+			targetProxy = AB4B45A5B38B604F95E645E8E6A4DB15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08D0C4395ADAF3F03B78083FA2E7EA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42AA9A280EAB42D30FCC6C8AA2856E5A /* Pods-calterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-calterTests/Pods-calterTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-calterTests/Pods-calterTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1331F643F69F800EE66F51B97795DBC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B1C7DDF64EB59E86F57B4E9A915D972 /* Pods-calterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-calterTests/Pods-calterTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-calterTests/Pods-calterTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		15C18D9A37BD5048BE0FDE88DCD94CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E12979134BAE0A2631B83F7A0EE0350 /* Pods-calterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-calterUITests/Pods-calterUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-calterUITests/Pods-calterUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		411AAD15EA319A34D45FEBD0C3585842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A30E6FBD2847C43784D28F5F0C55DDB /* Pods-calter.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-calter/Pods-calter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-calter/Pods-calter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B57756361905B4527C64A954D20A44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF30F2460DDBD62C864943CC42C5A200 /* YXWaveView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YXWaveView/YXWaveView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YXWaveView/YXWaveView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YXWaveView/YXWaveView.modulemap";
+				PRODUCT_MODULE_NAME = YXWaveView;
+				PRODUCT_NAME = YXWaveView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F43E49A9C12693F1C7579B3BEEF3123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC233BE9D63A3D11C6C2FF67FF693B3 /* Pods-calterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-calterUITests/Pods-calterUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-calterUITests/Pods-calterUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97A13DB077DDA221C59FF136CBC7BD8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25001FBD87B63773FABFFD66A8FB6AB2 /* Pods-calter.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-calter/Pods-calter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-calter/Pods-calter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A645151C0751323586706EB0BDA1F511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF30F2460DDBD62C864943CC42C5A200 /* YXWaveView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YXWaveView/YXWaveView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YXWaveView/YXWaveView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YXWaveView/YXWaveView.modulemap";
+				PRODUCT_MODULE_NAME = YXWaveView;
+				PRODUCT_NAME = YXWaveView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BADCEBED37C9E7AAA5F854A852BC46 /* Build configuration list for PBXNativeTarget "Pods-calterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C18D9A37BD5048BE0FDE88DCD94CA6 /* Debug */,
+				5F43E49A9C12693F1C7579B3BEEF3123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB339148147DF5D6813D101617441574 /* Build configuration list for PBXNativeTarget "YXWaveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A645151C0751323586706EB0BDA1F511 /* Debug */,
+				5B57756361905B4527C64A954D20A44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5469973B6D27DF8342278D2B0147E4D /* Build configuration list for PBXNativeTarget "Pods-calterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1331F643F69F800EE66F51B97795DBC3 /* Debug */,
+				08D0C4395ADAF3F03B78083FA2E7EA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED62BE598E0F0CF4D6D99B2D516BD987 /* Build configuration list for PBXNativeTarget "Pods-calter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411AAD15EA319A34D45FEBD0C3585842 /* Debug */,
+				97A13DB077DDA221C59FF136CBC7BD8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
